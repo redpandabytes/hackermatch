@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter names in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="/addNewCat" method="post">
+  name: <input type="text" name="name"><br>
+  age: <input type="number" name="age"><br>
+  hungry: <input type="bool" name="hungry"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+    document.getElementById("frm1").submit();
+    
+}
+</script>
+
+</body>
+</html>

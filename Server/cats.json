@@ -1,0 +1,19 @@
+{
+    "cat1" : {
+        "name"  : "Tom",
+        "age"   : 5,
+        "hungry": true
+    },
+
+    "cat2" : {
+        "name"  : "Kathy",
+        "age"   : 2,
+        "hungry": false
+    },
+
+    "cat3" : {
+        "name"  : "Godfrey",
+        "age"   : 1,
+        "hungry": true
+    }
+}
